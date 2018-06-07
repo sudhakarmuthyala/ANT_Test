@@ -49,11 +49,6 @@
        <copy file="${warname}.war" todir="${deploy.dir}"/>
 	   <delete file="buildtools.war"/>
     </target>
-<target>
-<delete> 
-<dirset dir="${build.dir}"/> 
- </delete>
-</target>
 
 
 </project>
