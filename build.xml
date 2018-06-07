@@ -1,7 +1,7 @@
    <!--building and deploying struts application using ant tools -->
 <project name="New" basedir="." default="deploy">
     <!-- Variable Declarion -->
-    <property name="home" value="E:\soft\apache-tomcat-7.0.37\server\Production"/>
+    <property name="home" value="E:\soft\apache-tomcat-7.0.37\webapps"/>
     <property name="deploy.dir" value="${home}/deploy"/>
     <property name="build.dir" value="MSR"/>
 	<property name="web-inf" value="${build.dir}/WEB-INF"/>
